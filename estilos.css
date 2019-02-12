@@ -1,0 +1,19 @@
+@charset "UTF 8";
+
+body{
+    background-color: aqua
+}
+
+h1 {        
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul.menu {
+    text-align: center;
+  }
+
+ul.menu li {
+    display: inline;
+    color: rgb(238, 167, 15);
+  }
