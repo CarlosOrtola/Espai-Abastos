@@ -1,7 +1,7 @@
 @charset "UTF 8";
 
 body{
-    background-color: aqua
+    background-color: rgb(166, 230, 230)
 }
 
 h1 {        
@@ -14,6 +14,38 @@ ul.menu {
   }
 
 ul.menu li {
-    display: inline;
-    color: rgb(238, 167, 15);
+    border-radius: 3px 12px 12px 12px;
+    display: inline-block;
+    size: 100%;
+    border-style: initial;
+    border:black 2px solid;
+    border-color: black;
+    text-align:center;
+    font-family: Arial;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 25px;
+    background-color: #2175bc;
+    color: #ffffff; 
+  }
+  
+  img {
+      position: relative;
+      display: block;
+      margin:auto;
+  }
+
+  .portada {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin:20px;
+
+  }
+  
+  #pie {
+      background-color: blue;
+      text-align: center
   }
