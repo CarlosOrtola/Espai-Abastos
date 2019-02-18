@@ -1,7 +1,7 @@
 @charset "UTF 8";
 
 body{
-    background-color: rgb(166, 230, 230)
+    background-color: rgb(230, 226, 166)
 }
 
 h1 {        
@@ -28,8 +28,8 @@ ul.menu li {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 25px;
-    background-color: #2175bc;
-    color: #ffffff; 
+    background-color: #bca021;
+    color: #000000; 
   }
   
   img {
@@ -46,6 +46,21 @@ ul.menu li {
   }
   
   #pie {
-      background-color: blue;
+      background-color: rgb(121, 94, 36);
       text-align: center
+  }
+
+  #precio{
+      font-size: 30px;
+      background-color: rgb(224, 209, 2);
+      border-radius: 5px 5px 5px 5px;
+      margin-right: 87%;
+      margin-left: 5%;
+      padding:5px;
+      border:2px red solid;
+
+  }
+
+   #precio.hover{
+        background-color:red
   }
