@@ -1,18 +1,18 @@
 @charset "UTF 8";
-
+/*Color de fondo del sitio web*/
 body{
     background-color: rgb(230, 226, 166)
 }
-
+/*Estílos de los títulos*/
 h1 {        
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-
-ul.menu {
-    text-align: center;
-  }
-
+/*Menú centrado*/
+ul.menu{
+    text-align: center
+}
+/*Estilos de los botones del menu*/
 ul.menu li {
     border-radius: 3px 12px 12px 12px;
     display: inline-block;
@@ -31,25 +31,25 @@ ul.menu li {
     background-color: #bca021;
     color: #000000; 
   }
-  
+  /*Posición de la imagen*/
   img {
       position: relative;
       display: block;
       margin:auto;
   }
-
+  /*Estilos de el texto de la página index*/
   .portada {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     margin:20px;
 
   }
-  
+  /*Estilos del footer*/
   #pie {
       background-color: rgb(121, 94, 36);
       text-align: center
   }
-
+  /*Estilos del boton precio*/
   #precio{
       font-size: 30px;
       background-color: rgb(224, 209, 2);
@@ -63,4 +63,9 @@ ul.menu li {
 
    #precio.hover{
         background-color:red
+  }
+
+  .pag2{
+      text-align: left;
+      margin-left: 20%
   }
