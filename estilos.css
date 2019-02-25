@@ -1,8 +1,20 @@
 @charset "UTF 8";
-/*Color de fondo del sitio web*/
-body{
-    background-color: rgb(230, 226, 166)
+
+/*FOndo de la cabecera*/
+.menu{
+    background-image: url(IMG/Cabecera.jpg);
+    margin: 0%;
+    padding: 0%;
+    color: white
+
 }
+/*Color de fondo del sitio web*/
+body {
+    background-image: url(IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    }
 /*Estílos de los títulos*/
 h1 {        
     text-align: center;
@@ -22,7 +34,7 @@ ul.menu li {
     border-color: black;
     text-align:center;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 5px;
@@ -31,6 +43,7 @@ ul.menu li {
     background-color: #bca021;
     color: #000000; 
   }
+
   /*Posición de la imagen*/
   img {
       position: relative;
@@ -41,7 +54,8 @@ ul.menu li {
   .portada {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    margin:20px;
+    margin:60px;
+    font-size: 20px
 
   }
   /*Estilos del footer*/
@@ -68,4 +82,19 @@ ul.menu li {
   .pag2{
       text-align: left;
       margin-left: 20%
+  }
+
+  h1{
+      font-size: 40px;
+      color: white
+  }
+
+  iframe{
+      position: relative;
+      margin-left: 30%
+  }
+  form{
+      color: white;
+      margin-left: 50px;
+      size: 50px
   }
