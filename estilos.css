@@ -44,6 +44,9 @@ ul.menu li {
     color: #000000; 
   }
 
+  ul.menu li:hover {
+      background-color: rgb(91, 156, 255)
+  }
   /*Posición de la imagen*/
   img {
       position: relative;
@@ -75,7 +78,7 @@ ul.menu li {
 
   }
 
-   #precio.hover{
+   #precio:hover{
         background-color:red
   }
 
@@ -97,4 +100,16 @@ ul.menu li {
       color: white;
       margin-left: 50px;
       size: 50px
+  }
+  h2 {
+      color: white;
+      font-size: 25px;
+      margin-left: 20%
+      
+  }
+  #nos{
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      margin-left:15%
   }

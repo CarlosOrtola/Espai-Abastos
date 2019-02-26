@@ -15,28 +15,44 @@
     <hr>
     <!--Menú con hipervínculos a otras páginas de la web-->
     <ul class="menu">
-        <li> <a href="index.html"> Inicio</a></li>
-        <li> <a href="nosotros.html"> Quienes somos</a></li>
-        <li> <a href="ubicacion.html"> Ubicación</a></li>
-        <li> <a href="espacios.html"> Espacios</a></li>
-        <li> <a href="contacto.html"> Contacto</a></li>
+            <a href="index.html"><li> Inicio</li></a>
+            <a href="nosotros.html"><li>Quienes somos</li></a>
+            <a href="ubicacion.html"><li>Ubicación</li></a>
+            <a href="espacios.html"><li> Espacios</li></a>
+            <a href="contacto.html"><li>Contacto</li></a>
       </ul>
+
       
     </header>
     <br>
     <br>
-    <form action="ejemplo.php" method="get">
-            <p>Nombre: <input type="text" name="nombre" size="30"></p>
-            <p>Correo: <input type="text" name="correo" size="40"></p>
-            <p>Asunto: <input type="text" name="asunto" size="40">
-            </p>
-            <p>Texto: <input type="text" name="texto" size="400">
-            </p>
-            <p>
-              <input type="submit" value="Enviar">
-              <input type="reset" value="Borrar">
-            </p>
-          </form>
+      <hr>
+      <br>
+      <br>
+      
+    
+    <div id="after_submit"></div>
+<form id="contact_form" action="" method="POST" enctype="multipart/form-data">
+  <div class="partes">
+    <label class="requerido" for="nombre">Tu nombre:</label><br />
+    <input id="nombre" class="input" name="nombre" type="text" size="30" /><br />
+    <span id="validacion_nombre" class="error_message"></span>
+  </div>
+  <div class="partes">
+    <label class="requerido" for="email">Tu email:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="validacion_email" class="error_message"></span>
+  </div>
+  <div class="partes">
+    <label class="requerido" for="mensaje">Tu mensaje:</label><br />
+    <textarea id="mensaje" class="input" name="mensaje" rows="7" cols="30"></textarea><br />
+    <span id="validación_mensaje" class="error_message"></span>
+  </div>
+    
+    <input id="submit_button" type="submit" value="Enviar" />
+    <input id="delete_button" type="delete" value="Borrar" />
+</form>
+    
 <!--Footer, faltan los accesos a las redes sociales-->
     <footer id=pie >
         <address>Autor: Carlos Ortola Mud</address>
