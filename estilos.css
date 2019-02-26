@@ -57,9 +57,15 @@ ul.menu li {
   .portada {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
-    margin:60px;
     font-size: 20px
 
+  }
+  .portada li{
+      margin-left: 25%;
+  }
+
+  #txt_port{
+      margin-left:20%
   }
   /*Estilos del footer*/
   #pie {
@@ -69,17 +75,17 @@ ul.menu li {
   /*Estilos del boton precio*/
   #precio{
       font-size: 30px;
-      background-color: rgb(224, 209, 2);
+      background-color: #bca021;
       border-radius: 5px 5px 5px 5px;
       margin-right: 87%;
       margin-left: 5%;
       padding:5px;
-      border:2px red solid;
+      border:2px black;
 
   }
 
    #precio:hover{
-        background-color:red
+        background-color:white
   }
 
   .pag2{
@@ -113,3 +119,25 @@ ul.menu li {
       font-size: 15px;
       margin-left:15%
   }
+
+  /*Acceso a redes sociales*/
+
+
+  #face{
+      width: 100px;
+      height: 100px;
+  }
+
+  #insta{
+    width: 100px;
+    height: 100px;
+}
+#twit{
+    width: 100px;
+    height: 100px;
+}
+
+ul#reds li{
+    display: inline-block;
+    margin: 20px
+}
